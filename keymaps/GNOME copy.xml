@@ -9,6 +9,8 @@
   <action id="CompareTwoFiles" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDeleteToLineStart">
@@ -36,11 +38,15 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
-  <action id="EditorNextWord" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
-  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
@@ -76,8 +82,10 @@
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
+  <action id="NextTab" />
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
+  <action id="PreviousTab" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift alt f" />
