@@ -96,6 +96,9 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
   <action id="NextTab" />
